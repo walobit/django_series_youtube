@@ -1,0 +1,44 @@
+*{
+    font-family: 'Lucida Grande';
+}
+nav{
+    background-color: #0461B2
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand{
+    padding: 15px;
+    font-size: 20px;
+    color: white
+}
+
+.nav-items{
+   font-size: 20px;
+
+}
+
+.nav-item {
+    padding: 15px;
+    color: white;
+    display: inline-block;
+}
+.nav-item:hover{
+    background-color: rgba(98, 116, 156, 0.76);
+}
+
+.nav-item:not(:first-child){
+    margin-left: 5px;
+}
+.task-item{
+    height: 100px;
+    width: 50%;
+    background-color: rgb(194, 194, 194);
+    margin: 20px auto;
+}
+.task-item:first-of-type{
+    margin-top: 50px;
+}

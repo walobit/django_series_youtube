@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* REMOVE BULLETS IN LISTS */
+ul {
+    list-style: none
+}
+
+/* FOR LINKS */
+.text-normal{
+    text-decoration: none;
+    color: black;
+}
+
+/* FOR CONTAINERS OF ELEMENTS */
+.text-center {
+    text-align: center;
+}
+
+/* USEFUL IF YOU WEBSITE IS NOT WHITE */
+.text-white {
+    color: white;
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* ALLOWS UNSELECTABLE TEXT */
+.disable-selection {
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+/* REMOVES TOUCH BLUE COLOR */
+.disable-highlight {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* NO CONTAINER, WE WANT IT 100% width */
+@media (max-width: 767px) {
+    .hidden-sm{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .container {
+        width: 750px;
+    }
+    .hidden-md{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+
+    }
+
+    .hidden-md {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+    .hidden-lg{
+        display: none;
+    }
+}
+
+.container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
