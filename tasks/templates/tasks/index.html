@@ -27,8 +27,11 @@
 
     <!-- END NAVBAR -->
 
-    {% for i in "0000" %}
-        <div class="task-item"></div>
+    {% for task in mytasks %}
+        <div class="task-item">
+            <p> {{ task.title }} </p>
+            <p> {{ task.description }} </p>
+        </div>
     {% endfor %}
     
 </body>
